@@ -3,6 +3,14 @@
 
 https://www.udemy.com/docker-and-kubernetes-the-complete-guide
 
+# Development
+
+run the following:
+
+1. `docker build -t frontend_dev -f Dockerfile.dev .`
+2. `docker run -p 3000:3000 -v /app/node_modules -v $(pwd):/app -it frontend_dev`
+
+
 ## Run dev
 
 In the project directory, you can run:
