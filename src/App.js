@@ -20,7 +20,7 @@ class App extends Component {
             Learn React
           </a>
           <div>
-            Bananas asdf
+            I was changed on the feature branch
           </div>
         </header>
       </div>
